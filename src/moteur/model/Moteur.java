@@ -4,6 +4,7 @@ public class Moteur {
 
 	
 	private String nome;
+	private String model;
 	private int puissance;
 
 	
