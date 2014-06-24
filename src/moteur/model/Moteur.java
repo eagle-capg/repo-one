@@ -22,7 +22,7 @@ public class Moteur {
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;
+		this.nome = nome;;
 	}
 
 	public int getPuissance() {
