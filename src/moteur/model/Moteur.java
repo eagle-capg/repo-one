@@ -9,7 +9,6 @@ public class Moteur {
 
 	
 	
-	
 	/**
 	 * Default constructeur
 	 */
@@ -32,5 +31,9 @@ public class Moteur {
 	public void setPuissance(int puissance) {
 		this.puissance = puissance;
 	}
+
+	public String  toString(){
+		return ("name :"+nome+" , model :"+model+" , puissance :"+puissance);
+	} 
 
 }
