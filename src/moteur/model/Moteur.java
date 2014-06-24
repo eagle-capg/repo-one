@@ -22,7 +22,7 @@ public class Moteur {
 	}
 
 	public void setNome(String nome) {
-		this.nome = nome;;
+		this.nome = nome;
 	}
 
 	public int getPuissance() {
@@ -33,8 +33,14 @@ public class Moteur {
 		this.puissance = puissance;
 	}
 
+
 	public String getColor (){
 		return   color; 
 	}
+
+	public String  toString(){
+		return ("name :"+nome+" , model :"+model+" , puissance :"+puissance);
+	} 
+
 
 }
