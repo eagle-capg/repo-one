@@ -7,7 +7,7 @@ public class Moteur {
 	private String model;
 	private int puissance;
 
-	
+	private String color;  
 	
 	
 	/**
@@ -31,6 +31,10 @@ public class Moteur {
 
 	public void setPuissance(int puissance) {
 		this.puissance = puissance;
+	}
+
+	public String getColor (){
+		return   color; 
 	}
 
 }
